@@ -3,21 +3,36 @@ body,
 * {
   padding: 20px;
   margin: 20px;
-  background-color: rgb(216, 114, 114);
+  background-color: rgb(114, 158, 216);
 }
 
-.card1 {
+.header1 {
+  font-size: 50px;
+  text-align: center;
+}
+.parent1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.parent2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.parent3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
   border: 5px solid rgb(0, 0, 0);
   box-sizing: content-box;
-  width: 20%;
+
   align-items: center;
 }
 
 .card-img {
   width: 250px;
-}
-
-.card {
-  display: flex;
-  justify-content: space-between;
+  height: %;
 }
