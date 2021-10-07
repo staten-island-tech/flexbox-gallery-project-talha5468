@@ -5,6 +5,9 @@ body,
   margin: 2rem;
   box-sizing: border-box;
   font-size: 62.5%;
+}
+
+body {
   background-color: rgb(114, 158, 216);
 }
 
@@ -13,28 +16,16 @@ body,
   text-align: center;
   font-family: "Patua One", cursive;
 }
-.parent1 {
-  display: flex;
-  justify-content: space-between;
-  width: 3rem;
-}
 
-.parent2 {
+.parent {
   display: flex;
-  justify-content: space-between;
   width: 3rem;
+  margin-left: 25rem;
+  margin-right: 25rem;
 }
-
-.parent3 {
-  display: flex;
-  justify-content: space-between;
-  width: 3rem;
-}
-
 .card {
   border: 1rem solid rgb(0, 0, 0);
   box-sizing: content-box;
-  align-items: center;
   box-shadow: 2rem 1rem 1rem rgb(25, 68, 162);
 }
 
