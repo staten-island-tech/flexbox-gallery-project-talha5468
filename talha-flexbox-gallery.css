@@ -1,38 +1,48 @@
 html,
 body,
 * {
-  padding: 20px;
-  margin: 20px;
+  padding: 2rem;
+  margin: 2rem;
+  box-sizing: border-box;
+  font-size: 62.5%;
   background-color: rgb(114, 158, 216);
 }
 
 .header1 {
-  font-size: 50px;
+  font-size: 7rem;
   text-align: center;
+  font-family: "Patua One", cursive;
 }
 .parent1 {
   display: flex;
   justify-content: space-between;
+  width: 3rem;
 }
 
 .parent2 {
   display: flex;
   justify-content: space-between;
+  width: 3rem;
 }
 
 .parent3 {
   display: flex;
   justify-content: space-between;
+  width: 3rem;
 }
 
 .card {
-  border: 5px solid rgb(0, 0, 0);
+  border: 1rem solid rgb(0, 0, 0);
   box-sizing: content-box;
-
   align-items: center;
+  box-shadow: 2rem 1rem 1rem rgb(25, 68, 162);
 }
 
-.card-img {
-  width: 250px;
-  height: %;
+.otter-img {
+  height: 25rem;
+}
+
+.proheader {
+  font-family: "Crete Round", serif;
+  font-size: 3rem;
 }
