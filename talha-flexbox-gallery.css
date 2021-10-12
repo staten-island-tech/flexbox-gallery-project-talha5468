@@ -17,6 +17,9 @@ body {
   font-family: "Patua One", cursive;
 }
 
+.header1 {
+  transition: all 0.2s;
+}
 .header1:hover {
   transform: scale(2);
 }
@@ -35,7 +38,7 @@ body {
 }
 
 .card-1 {
-  transition: all 0.3s;
+  transition: all 0.35s;
 }
 
 .card-1:hover {
@@ -50,8 +53,8 @@ body {
   font-family: "Crete Round", serif;
   font-size: 3rem;
 }
-.card-2 :hover {
-  transform: scale(1);
+.card-2:hover {
+  transform: scale(1.2, 1.2);
 }
 
 .test {
