@@ -56,3 +56,47 @@ body {
 .card-2:hover {
   transform: scale(1.2, 1.2);
 }
+
+.ottersurprised {
+  width: 100rem;
+  animation: dance 8s infinite;
+  position: absolute;
+}
+@keyframes dance {
+  0% {
+    left: 5%;
+    bottom: 0%;
+  }
+  12.5% {
+    left: 15%;
+    bottom: 0%;
+  }
+  25% {
+    left: 25%;
+    bottom: 0%;
+  }
+  37.5% {
+    left: 35%;
+    bottom: 0%;
+  }
+  50% {
+    left: 45%;
+    bottom: 0%;
+  }
+  62.5% {
+    left: 55%;
+    bottom: 0%;
+  }
+  75% {
+    left: 65%;
+    bottom: 0%;
+  }
+  87.5% {
+    left: 75%;
+    bottom: 0%;
+  }
+  100% {
+    left: 85%;
+    bottom: 50%;
+  }
+}
