@@ -167,6 +167,11 @@ body {
 }
 @media screen and (max-width: 1440px) {
   .header1 {
-    height: 7rem;
+    font-size: 7rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header1 {
+    font-size: 5rem;
   }
 }
