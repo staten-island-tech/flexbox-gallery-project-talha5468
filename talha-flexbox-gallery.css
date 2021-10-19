@@ -55,48 +55,122 @@ body {
 }
 .card-2:hover {
   transform: scale(1.2, 1.2);
+  outline: 1rem black solid;
 }
 
 .ottersurprised {
-  width: 100rem;
-  animation: dance 8s infinite;
+  width: 25rem;
+  animation: dance 8s 1;
+  animation-fill-mode: forwards;
   position: absolute;
 }
 @keyframes dance {
   0% {
     left: 5%;
-    bottom: 0%;
+    bottom: -170%;
   }
   12.5% {
-    left: 15%;
-    bottom: 0%;
+    left: 17.5%;
+    bottom: -180%;
   }
   25% {
-    left: 25%;
-    bottom: 0%;
+    left: 30%;
+    bottom: -170%;
   }
   37.5% {
-    left: 35%;
-    bottom: 0%;
+    left: 42.5%;
+    bottom: -180%;
   }
   50% {
-    left: 45%;
-    bottom: 0%;
+    left: 55%;
+    bottom: -170%;
   }
   62.5% {
-    left: 55%;
-    bottom: 0%;
+    left: 67.5%;
+    bottom: -180%;
   }
   75% {
-    left: 65%;
-    bottom: 0%;
+    left: 80%;
+    bottom: -170%;
   }
   87.5% {
-    left: 75%;
-    bottom: 0%;
+    left: 92.5%;
+    bottom: -180%;
   }
   100% {
-    left: 85%;
-    bottom: 50%;
+    left: 100%;
+    bottom: -170%;
+  }
+}
+
+.card-3:hover {
+  animation-fill-mode: forwards;
+  animation: transf-3 0.4s 1;
+}
+@keyframes transf-3 {
+  10% {
+    transform: rotate(36deg);
+  }
+  20% {
+    transform: rotate(72deg);
+  }
+  30% {
+    transform: rotate(108deg);
+  }
+  40% {
+    transform: rotate(144deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  60% {
+    transform: rotate(216deg);
+  }
+  70% {
+    transform: rotate(252deg);
+  }
+  80% {
+    transform: rotate(288deg);
+  }
+  90% {
+    transform: rotate(324deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.card-4:hover {
+  animation: wobble 3s 1;
+}
+@keyframes wobble {
+  0% {
+    transform: translateX(0%);
+  }
+  15% {
+    transform: translateX(-30) rotate(-7deg);
+  }
+  30% {
+    transform: translateX(25%) rotate(4deg);
+  }
+  45% {
+    transform: translateX(-15%) rotate(-3deg);
+  }
+  60% {
+    transform: translateX(10%) rotate(2deg);
+  }
+  75% {
+    transform: translateX(-7%) rotate(-2deg);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@media all and (max-width: 720px) {
+  .header1 {
+    font-size: 2rem;
+  }
+  .otter-img {
+    width: 15rem;
+    height: 15rem;
   }
 }
