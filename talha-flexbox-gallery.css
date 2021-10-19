@@ -67,39 +67,39 @@ body {
 @keyframes dance {
   0% {
     left: 5%;
-    bottom: -170%;
+    bottom: -140%;
   }
   12.5% {
     left: 17.5%;
-    bottom: -180%;
+    bottom: -160%;
   }
   25% {
     left: 30%;
-    bottom: -170%;
+    bottom: -140%;
   }
   37.5% {
     left: 42.5%;
-    bottom: -180%;
+    bottom: -160%;
   }
   50% {
     left: 55%;
-    bottom: -170%;
+    bottom: -140%;
   }
   62.5% {
     left: 67.5%;
-    bottom: -180%;
+    bottom: -160%;
   }
   75% {
     left: 80%;
-    bottom: -170%;
+    bottom: -140%;
   }
   87.5% {
     left: 92.5%;
-    bottom: -180%;
+    bottom: -160%;
   }
   100% {
     left: 100%;
-    bottom: -170%;
+    bottom: -140%;
   }
 }
 
