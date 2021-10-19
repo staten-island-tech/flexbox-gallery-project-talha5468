@@ -59,7 +59,7 @@ body {
 }
 
 .ottersurprised {
-  width: 25rem;
+  width: 70rem;
   animation: dance 8s 1;
   animation-fill-mode: forwards;
   position: absolute;
