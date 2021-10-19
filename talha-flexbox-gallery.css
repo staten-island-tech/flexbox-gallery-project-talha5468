@@ -46,7 +46,7 @@ body {
 }
 
 .otter-img {
-  height: 25rem;
+  width: 15rem;
 }
 
 .proheader {
@@ -59,7 +59,7 @@ body {
 }
 
 .ottersurprised {
-  width: 70rem;
+  width: 30rem;
   animation: dance 8s 1;
   animation-fill-mode: forwards;
   position: absolute;
@@ -98,8 +98,8 @@ body {
     bottom: -160%;
   }
   100% {
-    left: 100%;
-    bottom: -140%;
+    left: 92.5%;
+    bottom: -160%;
   }
 }
 
@@ -165,13 +165,37 @@ body {
     transform: translateX(0%);
   }
 }
-@media screen and (max-width: 1440px) {
-  .header1 {
-    font-size: 7rem;
+
+@media screen and (max-width 414px) {
+  .proheader {
+    font-family: "Crete Round", serif;
+    font-size: 1rem;
   }
-}
-@media screen and (max-width: 768px) {
   .header1 {
-    font-size: 5rem;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Patua One", cursive;
+  }
+  .parent {
+    display: flex;
+    width: 1rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+  .card {
+    border: 0.3rem solid rgb(0, 0, 0);
+    box-sizing: content-box;
+    box-shadow: 0.7rem 0.3rem 0.3rem rgb(25, 68, 162);
+  }
+
+  .otter-img {
+    width: 5rem;
+  }
+
+  .ottersurprised {
+    width: 10rem;
+    animation: dance 8s 1;
+    animation-fill-mode: forwards;
+    position: absolute;
   }
 }
