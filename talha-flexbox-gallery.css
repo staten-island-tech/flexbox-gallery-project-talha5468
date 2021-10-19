@@ -165,8 +165,8 @@ body {
     transform: translateX(0%);
   }
 }
-@media screen and (min-width: 1024px, height: auto)
+@media screen and (max-width: 1440px) {
   .header1 {
-    font-size: 4rem;
+    height: 7rem;
   }
-
+}
