@@ -165,12 +165,8 @@ body {
     transform: translateX(0%);
   }
 }
-@media all and (max-width: 720px) {
+@media screen and (min-width: 1024px, height: auto)
   .header1 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
-  .otter-img {
-    width: 15rem;
-    height: 15rem;
-  }
-}
+
