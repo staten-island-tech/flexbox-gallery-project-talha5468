@@ -14,17 +14,19 @@ body {
   font-size: 7rem;
   text-align: center;
   font-family: "Patua One", cursive;
+  transition: all 0.2s;
 }
 .parent {
   display: flex;
-  width: 3rem;
-  margin-left: 25rem;
-  margin-right: 25rem;
+  margin: auto;
+
 }
 .card {
   border: 1rem solid rgb(0, 0, 0);
-  box-sizing: content-box;
   box-shadow: 2rem 1rem 1rem rgb(25, 68, 162);
+  width: 30rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
 }
 
 .card-1 {
@@ -44,9 +46,6 @@ body {
   font-size: 3rem;
 }
 
-.header1 {
-  transition: all 0.2s;
-}
 .header1:hover {
   transform: scale(2);
 }
@@ -65,39 +64,39 @@ body {
 @keyframes dance {
   0% {
     left: 5%;
-    bottom: -140%;
+    bottom: -90%;
   }
   12.5% {
     left: 17.5%;
-    bottom: -160%;
+    bottom: -100%;
   }
   25% {
     left: 30%;
-    bottom: -140%;
+    bottom: -90%;
   }
   37.5% {
     left: 42.5%;
-    bottom: -160%;
+    bottom: -100%;
   }
   50% {
-    left: 55%;
-    bottom: -140%;
+    left: 50%;
+    bottom: -90%;
   }
   62.5% {
-    left: 67.5%;
-    bottom: -160%;
+    left: 50%;
+    bottom: -100%;
   }
   75% {
-    left: 80%;
-    bottom: -140%;
+    left: 50%;
+    bottom: -90%;
   }
   87.5% {
-    left: 92.5%;
-    bottom: -160%;
+    left: 50%;
+    bottom: -100%;
   }
   100% {
-    left: 92.5%;
-    bottom: -160%;
+    left: 50%;
+    bottom: -90%;
   }
 }
 
@@ -164,36 +163,23 @@ body {
   }
 }
 
-@media screen and (max-width 414px) {
-  .proheader {
-    font-family: "Crete Round", serif;
-    font-size: 1rem;
-  }
-  .header1 {
+@media screen and (max-width: 390px) {
+   body {
+    max-height: 10rem;
+    margin: 0rem
+
+  } .header1 {
     font-size: 2rem;
-    text-align: center;
-    font-family: "Patua One", cursive;
   }
   .parent {
-    display: flex;
-    width: 1rem;
-    margin-left: 8rem;
-    margin-right: 8rem;
+    flex-direction: column;
   }
   .card {
-    border: 0.3rem solid rgb(0, 0, 0);
-    box-sizing: content-box;
-    box-shadow: 0.7rem 0.3rem 0.3rem rgb(25, 68, 162);
-  }
-
-  .otter-img {
-    width: 5rem;
+    width: 60%;
   }
 
   .ottersurprised {
-    width: 10rem;
-    animation: dance 8s 1;
-    animation-fill-mode: forwards;
-    position: absolute;
+    width: 1rem
+  }
   }
 }
