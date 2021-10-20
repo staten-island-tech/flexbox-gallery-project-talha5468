@@ -19,13 +19,20 @@ body {
 .parent {
   display: flex;
   margin: auto;
+  margin-bottom: 5rem;
+  width: 90%;
+  height: 30rem;
+  justify-content: space-around;
 }
 .card {
   border: 1rem solid rgb(0, 0, 0);
   box-shadow: 2rem 1rem 1rem rgb(25, 68, 162);
-  width: 30rem;
+  width: 29%;
+  height: 100%;
   margin-bottom: 2rem;
   padding: 1.5rem;
+  justify-content: center;
+  text-align: center;
 }
 
 .card-1 {
@@ -37,7 +44,8 @@ body {
 }
 
 .otter-img {
-  width: 15rem;
+  height: 60%;
+  margin: auto;
 }
 
 .proheader {
@@ -162,43 +170,15 @@ body {
   }
 }
 
-@media screen and (max-width: 390px) {
-  body {
-    max-height: 10rem;
-    margin: 0rem;
+@media screen and (max-width: 900px) {
+  .parent {
+    height: 20rem;
+    margin: 3rem;
   }
-  .header1 {
+  .card {
+    width: 48%;
+  }
+  .proheader: {
     font-size: 2rem;
-  }
-  .parent {
-    flex-direction: column;
-  }
-  .card {
-    width: 60%;
-  }
-
-  .ottersurprised {
-    width: 1rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    max-height: 20rem;
-    margin: 0rem;
-  }
-  .header1 {
-    font-size: 4rem;
-  }
-  .parent {
-    flex-wrap: wrap;
-  }
-  .card {
-    width: 40%;
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-  .ottersurprised {
-    width: 7rem;
   }
 }
