@@ -1,7 +1,6 @@
 html,
 body,
 * {
-  padding: 2rem;
   margin: 2rem;
   box-sizing: border-box;
   font-size: 62.5%;
@@ -15,26 +14,25 @@ body {
   font-size: 7rem;
   text-align: center;
   font-family: "Patua One", cursive;
-}
-
-.header1 {
   transition: all 0.2s;
 }
-.header1:hover {
-  transform: scale(2);
-}
-
 .parent {
   display: flex;
-  width: 3rem;
-  margin-left: 25rem;
-  margin-right: 25rem;
+  margin: auto;
+  margin-bottom: 5rem;
+  width: 90%;
+  height: 30rem;
+  justify-content: space-around;
 }
-
 .card {
   border: 1rem solid rgb(0, 0, 0);
-  box-sizing: content-box;
   box-shadow: 2rem 1rem 1rem rgb(25, 68, 162);
+  width: 29%;
+  height: 100%;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  justify-content: center;
+  text-align: center;
 }
 
 .card-1 {
@@ -46,20 +44,26 @@ body {
 }
 
 .otter-img {
-  height: 25rem;
+  height: 60%;
+  margin: auto;
 }
 
 .proheader {
   font-family: "Crete Round", serif;
   font-size: 3rem;
 }
+
+.header1:hover {
+  transform: scale(2);
+}
+
 .card-2:hover {
   transform: scale(1.2, 1.2);
   outline: 1rem black solid;
 }
 
 .ottersurprised {
-  width: 70rem;
+  width: 30rem;
   animation: dance 8s 1;
   animation-fill-mode: forwards;
   position: absolute;
@@ -67,39 +71,39 @@ body {
 @keyframes dance {
   0% {
     left: 5%;
-    bottom: -140%;
+    bottom: -90%;
   }
   12.5% {
     left: 17.5%;
-    bottom: -160%;
+    bottom: -100%;
   }
   25% {
     left: 30%;
-    bottom: -140%;
+    bottom: -90%;
   }
   37.5% {
     left: 42.5%;
-    bottom: -160%;
+    bottom: -100%;
   }
   50% {
-    left: 55%;
-    bottom: -140%;
+    left: 50%;
+    bottom: -90%;
   }
   62.5% {
-    left: 67.5%;
-    bottom: -160%;
+    left: 50%;
+    bottom: -100%;
   }
   75% {
-    left: 80%;
-    bottom: -140%;
+    left: 50%;
+    bottom: -90%;
   }
   87.5% {
-    left: 92.5%;
-    bottom: -160%;
+    left: 50%;
+    bottom: -100%;
   }
   100% {
-    left: 100%;
-    bottom: -140%;
+    left: 50%;
+    bottom: -90%;
   }
 }
 
@@ -165,13 +169,16 @@ body {
     transform: translateX(0%);
   }
 }
-@media screen and (max-width: 1440px) {
-  .header1 {
-    font-size: 7rem;
+
+@media screen and (max-width: 900px) {
+  .parent {
+    height: 20rem;
+    margin: 3rem;
   }
-}
-@media screen and (max-width: 768px) {
-  .header1 {
-    font-size: 5rem;
+  .card {
+    width: 48%;
+  }
+  .proheader: {
+    font-size: 2rem;
   }
 }
